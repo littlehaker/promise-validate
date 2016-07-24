@@ -1,6 +1,6 @@
 var R = require('ramda');
 var validator = require('validator');
-var Q = require('Q');
+var Q = require('q');
 
 var pickMethods = R.pipe(R.keys, R.filter(R.test(/^is/)));
 
